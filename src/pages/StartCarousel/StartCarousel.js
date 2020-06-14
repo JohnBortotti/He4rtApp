@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, Dimensions, TouchableOpacity, ScrollView } from 'react-native';
 
-import Slide1 from './slides/Slide1';
-import Slide2 from './slides/Slide2';
-import Slide3 from './slides/Slide3';
+import Slide1 from '../../Components/slides/Slide1';
+import Slide2 from '../../Components/slides/Slide2';
+import Slide3 from '../../Components/slides/Slide3';
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeigth = Dimensions.get('window').height;
@@ -16,7 +16,7 @@ export default class StartCarousel extends Component {
   }
 
   scrollItem = () => {
-    if (this.scrollOffset >= 800) {
+    if (this.scrollOffset >= 650) {
       this.props.navigation.navigate('OlaDev')
     }
     else if (this.scrollOffset == undefined) { // caso o user n mexa no scroll o valor do offset fica como "undefined", então a função passa outro parametro, passando uma página

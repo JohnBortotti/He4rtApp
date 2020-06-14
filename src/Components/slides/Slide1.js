@@ -9,7 +9,7 @@ export default function Slide1() {
     <View style={styles.item}>
       <Image
         style={{ width: 160, height: 160, resizeMode: 'contain', marginBottom: 15 }}
-        source={require('../../../assets/StartCarouselImgs/initial-logo.png')} />
+        source={require('../../assets/StartCarouselImgs/initial-logo.png')} />
       <Text
         style={{ color: 'white', fontSize: 30, fontWeight: '700', marginBottom: 15 }}>BEM-VINDO!</Text>
       <Text

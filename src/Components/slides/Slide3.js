@@ -9,7 +9,7 @@ export default function Slide3() {
     <View style={styles.item}>
       <Image
         style={{ resizeMode: 'contain', marginTop: 130, backgroundColor: '#9163cc', width: screenWidth }}
-        source={require('../../../assets/StartCarouselImgs/discordIcon.png')} />
+        source={require('../../assets/StartCarouselImgs/discordIcon.png')} />
       <Text style={{ color: 'white', fontSize: 30, textAlign: 'center', fontWeight: '700', marginHorizontal: 30, marginBottom: 25 }}>Acesse nosso {"\n"} Discord!</Text>
       <TouchableOpacity
         style={styles.mainButton}>
