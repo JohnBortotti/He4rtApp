@@ -11,7 +11,6 @@ const screenHeigth = Dimensions.get('window').height;
 export default class StartCarousel extends Component {
 
   handleScroll = (event) => {
-    console.log(this.scrollOffset) // debug
     this.scrollOffset = event.nativeEvent.contentOffset.x// qndo usa o scroll atualiza o valor do Offset para a posição do scroll
   }
 
